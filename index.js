@@ -1,10 +1,16 @@
 const http = require('http');
 
 const jokes = [
-  'Warum können Geister so schlecht lügen? Weil man durch sie hindurchsehen kann!',
-  'Warum können Geister keine Lügen erzählen? Weil sie durchsichtige Argumente haben!',
-  'Warum haben Elefanten keine Computer? Weil sie Angst vor der Maus haben!',
-  'Warum können Skelette keine Partys feiern? Weil sie niemanden haben, mit dem sie tanzen können!',
+  'Warum benutzen Programmierer keine Sonnenbrillen? Weil sie keine Bugs im Code sehen wollen!',
+  'Warum sind Computer so schlau? Weil sie immer auf dem neuesten Stand sind!',
+  'Warum können Java-Entwickler keine Pausen machen? Weil sie immer im "try" Block sind!',
+  'Warum sind Programmierer so schlecht im Tennis? Weil sie immer "null" zurückgeben!',
+  'Warum können Entwickler keine Geheimnisse bewahren? Weil sie immer alles debuggen!',
+  'Warum sind Computer so gut im Singen? Weil sie perfekte "Bytes" haben!',
+  'Warum benutzen Programmierer keine Sonnenbrillen? Weil sie keine Bugs im Code sehen wollen!',
+  'Warum sind Computer so schlau? Weil sie immer auf dem neuesten Stand sind!',
+  'Warum können Java-Entwickler keine Pausen machen? Weil sie immer im "try" Block sind!',
+  'Warum sind Programmierer so schlecht im Tennis? Weil sie immer "null" zurückgeben!',
 ];
 
 function getRandomJoke() {
